@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
 # restarts apache2 webserver
+sudo touch /var/www/html/index.html
+sudo echo "Hello Holberton" > /var/www/html/index.html
 sudo service apache2 restart
