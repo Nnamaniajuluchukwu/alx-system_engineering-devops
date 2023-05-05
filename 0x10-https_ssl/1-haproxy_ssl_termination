@@ -48,7 +48,7 @@ frontend www-https
 backend myservers
         balance roundrobin
         server 116553-web-01 100.26.120.84:80 check
-        server 123554-web-02 18.207.1.176:80 check
+        server 116553-web-02 18.207.1.176:80 check
 
 backend letsencrypt
         server letsencrypt 127.0.0.1:54321
